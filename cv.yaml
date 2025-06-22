@@ -1,0 +1,277 @@
+cv:
+  name: Thang Bui-Nguyen
+  email: buinnthang@gmail.com
+  website: https://thangbn.cc
+  social_networks:
+    - network: LinkedIn
+      username: bui-nn-thang
+    - network: GitHub
+      username: gnahtb
+  sections:
+    education:
+      - institution: Carnegie Mellon University
+        area: Computer Science
+        degree: BS
+        date:
+        start_date: 2020-08
+        end_date: 2024-12
+        location: Doha, Qatar
+        summary:
+        highlights:
+          - 'University Honors (GPA: 3.8/4.0), concentrated in Computer Systems, minored in Business Administration'
+          - 'Notable coursework: Operating System, Computer Network, Distributed System, Cloud Computing, Deep Learning, Quantum Computation, Complexity Theory, Functional Programming, Constructive Logic'
+    experience:
+      - company: Microsoft
+        position: Software Engineer
+        date:
+        start_date: 2025-01
+        end_date: 2025-06
+        location: Ho Chi Minh City, Vietnam
+        summary:
+        highlights:
+          - Resolved memory corruption caused by unsafe concurrency, improved service stability and reduced 5\% monthly incident count
+          - Automated data pipeline to monitor log and autonomously raise data-enriched alerts for expedited troubleshooting
+          - Migrated from certificate-based to token authentication protocol to improve scalability and security compliance
+      - company: Carnegie Mellon University
+        position: Undergraduate Researcher
+        date:
+        start_date: 2024-05
+        end_date: 2024-08
+        location: Doha, Qatar
+        summary:
+        highlights:
+          - Investigated existing literature of machine learning (ML) for systems and further deeper improving congestion control with ML
+          - Trained prototype congestion control reinforcement learning model using ns3 as the environment outperforming TCP Cubic
+      - company: Amazon Web Services
+        position: Software Development Engineer Intern
+        date:
+        start_date: 2023-01
+        end_date: 2023-08
+        location: Seattle, Washington, United States
+        summary:
+        highlights:
+          - Automated provisioning and deployment process of internal tools to minimize human work and knowledge transfer
+          - Developed an application that autonomously detects outdated servers and rolls out updates without compromising service-level objectives, shortening the estimated rollout timeline by 30%
+      - company: Carnegie Mellon University
+        position: Teaching Assistant
+        date:
+        start_date: 2022-06
+        end_date: 2022-12
+        location: Pittsburgh, Pennsylvania, United States
+        summary: I was a course staff for Graduate Cloud Computing (15619) at Carnegie Mellon University in Fall 2022
+        highlights:
+          - Led AWS EC2 and autoscaling course project materials and grading infrastructure revamp that achieved 96% positive feedback
+          - Assisted in other course module materials and grading infrastructures development and quality assurance
+          - Improved the Infrastructure as Code and Terraform hands-on learning module by resolving ambiguity and incorporating best practices based on feedback from past students
+      - company: Carnegie Mellon University
+        position: Research Assistant
+        date:
+        start_date: 2022-06
+        end_date: 2022-08
+        location: Doha, Qatar
+        summary: I led a small team at Networking Systems Lab to investigate federated learning performance varying several environmental factors
+        highlights:
+          - Developed applications and bootstrapped infrastructure to conduct experiments and collect data for performance analysis
+      - company: Snoonu
+        position: Tech Intern
+        date:
+        start_date: 2021-06
+        end_date: 2021-09
+        location: Doha, Qatar
+        summary:
+        highlights:
+          - Automated functional tests using Selenium that detected several visual bugs in the internal portal frontend
+          - Migrated existing HTTP API endpoints to RabbitMQ message queues to address scalability and fault tolerance
+          - Integrated Apple Pay to the existing payment service to enable an additional payment method
+    projects:
+      - name: Pebbles
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: A fully cooperative x86 operating system simple kernel
+        highlights:
+          - Designed and implemented from scratch a kernel that runs ELF format executables
+          - Implemented keyboard and console device drivers and a paravirtualization hypervisor that support modified x86 guest kernels
+      - name: Liso
+        date: Spring 2024
+        start_date:
+        end_date:
+        location:
+        summary: A HTTP web server
+        highlights:
+          - Built a single thread I/O multiplexing web server that serves HEAD, GET, and POST methods of HTTP 1.1 (RFC 2616)
+          - Implemented TLS (RFC 2818) for secure connections and CGI (RFC 3875) for extensible applications
+    skills:
+      - label: Programming Languages
+        details: C/C++/C#, Java, Bash, Python, SQL (Postgres), JavaScript, HTML/CSS, Standard ML
+      - label: Frameworks and Libraries
+        details: React, Node.js, Bootstrap, Apache Spark, OpenMPI, Pytorch, Stable Baselines 3, Ray
+      - label: Developer Tools
+        details: 'Linux, GDB, QEMU, Git, Make, Docker, Kubernetes, Terraform, AWS (EC2, EKS, S3), Azure (Function App)'
+      - label: Languages
+        details: 'English (fluent, IELTS: 7.5), Vietnamese (native)'
+    publications:
+      - title: 'Bridging the Chasm Between Ideal and Realistic Federated Learning: A Measurements Study'
+        authors:
+          - H. Gedawy
+          - K. Harras
+          - T. Tanveer
+          - '**T. Bui**'
+        doi: 10.1109/CloudCom59040.2023.00015
+        url: https://ieeexplore.ieee.org/document/10475801
+        journal:
+        date: 2023
+    extracurricular_activities:
+      - bullet: '**VNOI Wiki Volunteer** (2021) Positive community feedbacks for two tutorials about Eulerian cycle and sweep line in competitive programming (CP) setting as part of the VNOI Wiki project aiming to raise Vietnamese CP community'
+    awards:
+      - bullet: "**Bronze Medal at [Africa and Arab Collegiate Programming Contest 2024](https://icpc.global/regionals/finder/ACPC-2025/standings)** Solved 8/14 problems, placed 10 out of 112 teams"
+      - bullet: '**Second Place** at [LifeLines Hackathon 2024](https://www.lifelinescmuq.org/) Developed an AI web app that measures biasedness and factuality of news articles'
+      - bullet: "**Dean's List (x8)** Maintained GPA at least 3.5/4.0 in all academic semesters"
+      - bullet: "**Bronze Medal** at Vietnam Olympiad in Informatics 2020"
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.75cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.25cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: '-'
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-06-21'
+  render_command:
+    output_folder_name: output
+    pdf_path: cv.pdf 
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true
+  bold_keywords: []
