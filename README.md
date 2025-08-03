@@ -1,10 +1,17 @@
-# my-resume
-Source control my resume
+# cv
+
+Source control my resume and CV
 
 ## Render
 
-Install [rendercv](https://rendercv.com/), then run:
+Install [uv](https://docs.astral.sh/uv/) and bootstrap project:
 
 ```
-rendercv render cv.yaml
+uv init
+```
+
+Render PDF:
+
+```
+uv run rendercv render cv.yaml
 ```
