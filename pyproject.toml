@@ -5,5 +5,5 @@ description = "Source control my resume and CV"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "rendercv>=2.2",
+    "rendercv[full]>=2.2",
 ]
